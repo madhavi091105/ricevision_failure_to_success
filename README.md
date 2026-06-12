@@ -86,25 +86,6 @@ requests
 pandas
 ---
 
-## 🚀 Usage
-
-### Detection
-```bash
-python detection/inference.py --image sample.jpg
-```
-
-### Classification
-```bash
-python classification/inference.py --image sample.jpg
-```
-
-### Full Pipeline
-```bash
-python pipeline.py --image sample.jpg
-```
-
----
-
 ## 📈 Experiment Logging
 
 All 150+ classification experiments auto-logged to Google Sheets tracking:
@@ -122,7 +103,7 @@ All 150+ classification experiments auto-logged to Google Sheets tracking:
 - Large classification models overfit severely on small datasets
 - Fine-tuning last 2 blocks consistently outperformed full freeze or full unfreeze
 - Data augmentation and regularization significantly reduced overfitting
-- Classification EXperiment still in progress
+- Classification Experiment still in progress
 
 ---
 
