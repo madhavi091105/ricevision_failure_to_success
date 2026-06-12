@@ -1,3 +1,13 @@
+## 🎯 Problem Statement
+
+In the rice processing industry, accurate identification of Sella rice varieties is critical for quality control, pricing, and supply chain management. Currently, variety classification is done manually by experts, which is:
+
+- **Time-consuming** — manual inspection of large batches
+- **Inconsistent** — subject to human error and fatigue
+- **Unscalable** — cannot handle industrial volumes
+
+RiceVision addresses this by building an automated two-stage computer vision pipeline that can **detect and classify Sella rice grain varieties** (1401_sella, 1509_sella, 1718_sella, Taaj_sella) from images with high accuracy — enabling faster, consistent, and scalable quality assessment in industrial settings.
+
 # 🌾 RiceVision — Rice Grain Detection & Classification
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -61,7 +71,7 @@ dataset/
 - **150+ experiments** across multiple architectures and training strategies
 - Strategies explored: Transfer Learning, Fine-tuning, Full fine-tuning
 - Training techniques: K-Fold CV, Data Augmentation, Dropout, Weight Decay, Early Stopping
-- **Best model: EfficientNet-B3 with K-Fold + Fine-tuning**
+- **Best model upto now: EfficientNet-B3 with K-Fold + Fine-tuning with 83% val accuracy and 92%train accuracy.**
 
 ---
 
