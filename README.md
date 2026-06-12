@@ -119,7 +119,8 @@ All 150+ classification experiments auto-logged to Google Sheets tracking:
 
 ## 👩‍💻 Author
 
-**Madhavi Chipade**
+**Madhavi Chipade **
+**Dhruv Taneja**
 
 
 ---
