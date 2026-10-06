@@ -24,7 +24,7 @@ A two-stage computer vision pipeline for rice grain detection and classification
 | Stage | Task | Approach | Accuracy |
 |---|---|---|---|
 | Stage 1 | Object Detection | YOLO fine-tuned | 96% |
-| Stage 2 | Classification | Different Classification Model | XX% |
+| Stage 2 | Classification | Different Classification Model | 83%(val) |
 
 ---
 
